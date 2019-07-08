@@ -7,3 +7,9 @@ https://github.com/windy9528/MallUtil/blob/master/README.md
 implementation 'com.github.windy9528:MallUtil:v1.0'
 
 1、
+//放在build中
+	apply plugin: 'com.github.dcendents.android-maven'
+	group='com.github.abcdqianlei1990'
+	//放在项目build中
+	classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+	implementation 'com.github.windy9528:MallUtil:v1.1'
