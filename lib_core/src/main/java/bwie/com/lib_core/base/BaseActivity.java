@@ -1,4 +1,4 @@
-package bwie.com.lib_core;
+package bwie.com.lib_core.base;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import bwie.com.lib_core.utils.LogUtil;
 
 /**
  * date:2019/7/8

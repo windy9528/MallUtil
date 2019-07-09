@@ -1,6 +1,8 @@
-package bwie.com.lib_core;
+package bwie.com.lib_core.utils;
 
 import android.util.Log;
+
+import bwie.com.lib_core.common.Constant;
 
 /**
  * date:2019/7/8
@@ -11,17 +13,12 @@ public class LogUtil {
 
     public static final String TAG = LogUtil.class.getSimpleName();
 
-    public static void main(String[] args) {
-        String a = LogUtil.class.getSimpleName();
-        System.out.println(a);
-    }
-
     /**
      * v级别打印
      * @param msg
      */
     public static void v(String msg) {
-        if (!IDE.isRelease) {//如果为开发环境
+        if (!Constant.isRelease) {//如果为开发环境
             Log.v(TAG, msg);
         }
     }
@@ -31,7 +28,7 @@ public class LogUtil {
      * @param msg
      */
     public static void d(String msg) {
-        if (!IDE.isRelease) {//如果为开发环境
+        if (!Constant.isRelease) {//如果为开发环境
             Log.d(TAG, msg);
         }
     }
@@ -41,7 +38,7 @@ public class LogUtil {
      * @param msg
      */
     public static void i(String msg) {
-        if (!IDE.isRelease) {//如果为开发环境
+        if (!Constant.isRelease) {//如果为开发环境
             Log.i(TAG, msg);
         }
     }
@@ -51,7 +48,7 @@ public class LogUtil {
      * @param msg
      */
     public static void w(String msg) {
-        if (!IDE.isRelease) {//如果为开发环境
+        if (!Constant.isRelease) {//如果为开发环境
             Log.w(TAG, msg);
         }
     }
@@ -61,7 +58,7 @@ public class LogUtil {
      * @param msg
      */
     public static void e(String msg) {
-        if (!IDE.isRelease) {//如果为开发环境
+        if (!Constant.isRelease) {//如果为开发环境
             Log.e(TAG, msg);
         }
     }
