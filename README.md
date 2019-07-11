@@ -3,8 +3,9 @@
 
 ## 只对activity和fragment进行了抽基类
 ### implementation 'com.github.windy9528:MallUtil:v1.1'
-### maven { url 'https://jitpack.io' }  
-
+```
+ maven { url 'https://jitpack.io' }  
+```
 ### =========华丽分割线===========
 
 ## 早期版本，不成熟
